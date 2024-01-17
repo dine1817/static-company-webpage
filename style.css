@@ -1,0 +1,466 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.backgroundPage {
+  background-color: #fefefe;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container {
+  width: 90%;
+  box-shadow: 1px 1px 30px 1px black;
+}
+.nav-logo {
+  margin-left: auto;
+}
+.logoNav {
+  background-color: #fefefe;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav-link {
+  list-style: none;
+  font-weight: bold;
+}
+.logoImage {
+  height: 80px;
+  width: 260px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.home,
+.about,
+.services,
+.contact {
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 40px;
+}
+.nav-link > a {
+  color: black;
+  text-decoration: none;
+}
+.nav-link .active {
+  background-color: #0b4a96;
+  color: #fefefe;
+  padding: 27px;
+}
+.firstBanner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  height: 750px;
+  background-image: url(banner3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.firstBanner p {
+  flex-basis: 87%;
+  color: #fefefe;
+  font-size: 55px;
+  padding-bottom: 10%;
+}
+.aboutIcm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.icmHeading {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.icmPara {
+  font-size: 22px;
+  margin: 40px 50px 50px 80px;
+}
+.headingOs {
+  background-color: #f6f4f7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 50px;
+  padding: 30px;
+}
+.ourService {
+  background-color: #f6f4f7;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+.service {
+  display: flex;
+  flex-basis: 33%;
+}
+.backWhite {
+  background-color: #fefefe;
+  padding: 25px;
+  margin: 0px 50px 50px 0px;
+  font-size: 17px;
+}
+.backWhite p {
+  padding-top: 7px;
+}
+.os i {
+  font-size: 25px;
+  background-color: #0b4a96;
+  color: #fefefe;
+  padding: 28px;
+}
+.skills-clients {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-bottom: 50px;
+}
+.skill-heading,
+.client-heading {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+}
+.ourSkills,
+.ourClients {
+  flex: 0 1 50%;
+  padding: 20px;
+}
+.clientSays > .author {
+  padding-top: 20px;
+  font-weight: bolder;
+  font-style: italic;
+}
+.angleIcons {
+  color: #0b4a96;
+  font-size: 50px;
+  text-align: end;
+  margin: 30px 30px 0px 30px;
+}
+.fa-angle-left,
+.fa-angle-right {
+  background-color: #f6f4f7;
+}
+.barOne,
+.barTwo,
+.barThree,
+.barFour {
+  height: 15px;
+  background-color: #0b4a96;
+  margin-left: 22px;
+  margin-bottom: 25px;
+}
+.barOne {
+  width: 60%;
+}
+.barTwo {
+  width: 70%;
+}
+.barThree {
+  width: 66%;
+}
+.barFour {
+  width: 53%;
+}
+.skills {
+  font-size: 22px;
+  margin-left: 20px;
+}
+.skills p {
+  margin-bottom: 7px;
+}
+.clientSays {
+  font-size: 22px;
+}
+.secondBanner {
+  width: 100%;
+  height: 13%;
+  background-image: url(banner2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.headingOf {
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  color: #fefefe;
+}
+.cloud-service {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0px 40px 40px;
+}
+.Content {
+  flex-basis: 43%;
+  background-color: #fefefe;
+  padding: 25px;
+}
+.Content p {
+  font-size: 18px;
+  padding-top: 15px;
+}
+.our-Clients {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 50px;
+  padding-top: 45px;
+}
+.client-logo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.comLogo {
+  margin: 40px 0;
+}
+.client-logo img {
+  height: 100px;
+}
+.con-info {
+  height: 15%;
+  background-image: url(sea.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contact-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 45px;
+  color: #fefefe;
+  padding-top: 40px;
+}
+.contactInfo {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fefefe;
+  font-size: 20px;
+  padding-top: 60px;
+  font-weight: bolder;
+}
+.reachOut {
+  flex-basis: 50%;
+  display: flex;
+  padding: 30px;
+}
+.icons {
+  flex-basis: 5%;
+  padding-left: 10px;
+}
+.address {
+  flex-basis: 65%;
+}
+.icons i {
+  margin-bottom: 25px;
+}
+.address p {
+  margin: 20px 15px;
+  margin-top: 0;
+}
+.icons .fa-phone {
+  margin-top: 18px;
+}
+.formMain {
+  flex-basis: 50%;
+  padding: 10px;
+}
+.formOne {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nameForm,
+.mailForm {
+  flex-basis: 50%;
+}
+.formTwo {
+  margin-top: 40px;
+}
+input[type="text"],
+input[type="email"] {
+  width: 90%;
+  margin-top: 10px;
+  padding: 10px;
+}
+input[type="message"] {
+  width: 95%;
+  margin-top: 10px;
+  padding: 85px 60px;
+}
+button[type="submit"] {
+  font-size: 20px;
+  background-color: #fefefe;
+  border: none;
+}
+.btn {
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  padding-right: 5%;
+  margin-top: 35px;
+}
+span {
+  font-weight: 900;
+}
+.logoNav .bars,
+i,
+.lNav {
+  display: none;
+}
+#opacity {
+  opacity: 0.1;
+}
+.footer {
+  height: 100px;
+  background-color: #0b4a96;
+  color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.copyryt {
+  flex-basis: 70%;
+}
+.copyryt p {
+  margin-left: 10px;
+}
+.lasticons {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.lasticons i {
+  font-size: 35px;
+  background-color: #fefefe;
+  padding: 5px;
+  margin-left: 20px;
+}
+.fa-twitter {
+  margin-right: 35px;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+  .logoNav {
+    display: none;
+  }
+  .bars {
+    font-size: 35px;
+    list-style: none;
+    padding: 15px 20px 0px 0px;
+  }
+  .firstBanner {
+    height: 450px;
+    background-size: 100% 100%;
+  }
+  .firstBanner p {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .aboutIcm {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icmHeading {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+  .icmPara {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px 10px 40px 10px;
+    text-align-last: inherit;
+  }
+  .headingOs {
+    font-size: 35px;
+  }
+  .skills-clients {
+    flex-direction: column;
+  }
+  .clientSays,
+  .skills {
+    font-size: 20px;
+  }
+  .lNav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .barOne,
+  .barTwo,
+  .barThree,
+  .barFour {
+    margin-left: 20px;
+  }
+  .barOne {
+    width: 75%;
+  }
+  .barTwo {
+    width: 85%;
+  }
+  .barThree {
+    width: 81%;
+  }
+  .barFour {
+    width: 68%;
+  }
+  .ourService,
+  .cloud-service,
+  .client-logo,
+  .contactInfo {
+    flex-direction: column;
+  }
+  .Content {
+    margin: 15px;
+  }
+  .client-logo img {
+    height: 150px;
+  }
+  .con-info {
+    height: 13%;
+  }
+  .address,
+  .nameForm,
+  .mailForm {
+    flex-basis: 100%;
+  }
+  .reachOut {
+    padding: 0;
+    padding-left: 20px;
+  }
+  .formMain {
+    padding: 0 30px;
+  }
+  input[type="message"] {
+    width: 90%;
+  }
+  .btn {
+    justify-content: flex-start;
+  }
+  .copyryt p {
+    font-size: 15px;
+  }
+}
